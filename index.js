@@ -12,11 +12,13 @@ function SonoffTasmotaHTTPAccessory(log, config) {
   this.log = log;
   this.config = config;
   this.name = config["name"]
+  this.type = config["type"]
   this.relay = config["relay"] || ""
   this.hostname = config["hostname"] || "sonoff"
   this.password = config["password"] || "";
   
-  this.service = new Service.Outlet(this.name);
+  if (this.type = "outlet") this.service = new Service.Outlet(this.name);
+  if (this.type = "switch") this.service = new Service.Switch(this.name);
   
   this.service
   .getCharacteristic(Characteristic.On)
