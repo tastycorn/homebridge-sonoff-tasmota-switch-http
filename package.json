@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-sonoff-tasmota-http",
-  "version": "1.2.0",
-  "description": "Control Sonoff Basic devices with Tasmota >5.10.0b firmware through Homebridge",
+  "name": "homebridge-sonoff-tasmota-switch-http",
+  "version": "0.0.1",
+  "description": "Control Sonoff Basic devices (switches) with Tasmota >5.10.0b firmware through Homebridge",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "keywords": [
     "homebridge-plugin"
   ],
-  "author": "Georgios Andritsos <ageorgios@gmail.com>",
+  "author": "Ryan Peterson <ryan.peterson@ualberta.net>",
   "license": "MIT",
   "engines": {
     "node": ">=0.12.0",
@@ -21,10 +21,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ageorgios/homebridge-sonoff-tasmota-http.git"
+    "url": "git+https://github.com/tastycorn/homebridge-sonoff-tasmota-http.git"
   },
   "bugs": {
-    "url": "https://github.com/ageorgios/homebridge-sonoff-tasmota-http.git/issues"
+    "url": "https://github.com/tastycorn/homebridge-sonoff-tasmota-http.git/issues"
   },
-  "homepage": "https://github.com/ageorgios/homebridge-sonoff-tasmota-http.git#readme"
+  "homepage": "https://github.com/tastycorn/homebridge-sonoff-tasmota-http.git#readme"
 }
